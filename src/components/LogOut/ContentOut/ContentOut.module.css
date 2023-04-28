@@ -1,0 +1,102 @@
+.ContentOut_div{
+    background: rgba(114, 114, 114, 0.18);
+    border: 1px solid #4F4F4F;
+    border-radius: 14px;
+    width: 70%;
+    /* padding-left: 100px; */
+    padding: 50px;
+    /* display: flex; */
+    padding-bottom: 40px;
+    margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        margin-top: 2%;
+}
+.inp{
+    display: flex;
+    margin-left: auto;
+        margin-right: auto;
+}
+.t{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 27px;
+    /* display: flex; */
+    align-items: center;
+    /* text-align: center; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* display: flex; */
+margin-left: 30%;
+
+color: #FFFFFF;
+}
+.select3,.select2,.select{
+
+    color: #FFFFFF;
+    
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* display: flex */
+}
+.select{
+    margin-left: 30%;
+    width: 7%;
+}
+.select2{
+    width: 25%;
+}
+.select3{
+    width: 9%;
+}
+select{
+    font-family: 'Comfortaa';
+   /* position: relative; */
+/* display: block; */
+/* max-width: 400px; */
+/* min-width: 180px; */
+background: rgba(0, 0, 0, 0.53);
+border-radius: 2px;
+/* width: 40%; */
+height: 36px;
+margin: 0 auto;
+border: 1px solid rgba(0, 0, 0, 0.53);
+background-color:  rgba(0, 0, 0, 0.53);
+z-index: 10 ;
+color: #FFFFFF;
+
+
+}
+.agree{
+    /* display: inline-block; */
+    display: flex;
+    margin-left: 15%;
+}
+.apteetext{
+    font-family: 'Comfortaa';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 14px;
+color: #FFFFFF;
+}
+.checkbox{
+    width: 20px;
+    
+}
+.button{
+    background-color: #79638A;
+    color: aliceblue;
+    font-family: 'Comfortaa';
+    border-radius:2px;
+    border: #FCD0FF;
+    width: 30%;
+height: 36px;
+font-weight: 400;
+font-size: 20px;
+margin-left: 34%;
+margin-top: 10px;
+/* text-align: center; */
+}

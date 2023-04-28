@@ -1,0 +1,80 @@
+.LogInDiv{
+    background: rgba(114, 114, 114, 0.18);
+border: 1px solid #4F4F4F;
+border-radius: 14px;
+width: 70%;
+padding-left: 100px;
+display: flex;
+padding-bottom: 50px;
+margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-top: 5%;
+}
+h2{
+    color: aliceblue;
+    font-family: 'Comfortaa';
+    font-weight: 200;
+    margin-top: 60px;
+}
+h4{
+    color: #FCD0FF;
+    font-family: 'Comfortaa';
+    font-weight: 400;
+font-size: 15px;
+}
+.button{
+    background-color: #79638A;
+    color: aliceblue;
+    font-family: 'Comfortaa';
+    border-radius:2px;
+    border: #FCD0FF;
+    width: 235px;
+height: 36px;
+font-weight: 400;
+font-size: 20px;
+/* text-align: center; */
+}
+input{
+    background: rgba(0, 0, 0, 0.53);
+border-radius: 2px;
+width: 40%;
+height: 36px;
+border: rgba(0, 0, 0, 0.53);
+color: aliceblue;
+font-family: 'Comfortaa';
+font-weight: 400;
+padding-left: 10px;
+}
+h1{
+    color: aliceblue;
+    font-family: 'Comfortaa';
+}
+.test{
+    
+    /* margin-left: %; */
+
+}
+.tt{
+    margin-left: 9%;
+}
+.old{
+    /* display: inline-block; */
+    width: 100%;
+    margin-left: 60px;
+    
+}
+.new{
+    /* display: inline-block; */
+    /* margin-right: 0; */
+    /* float: left; */
+    margin-top: 50px;
+    /* margin-right: 80px; */
+    text-align: center;
+    width: 20%;
+    margin-right: 200px;
+}
+#navLink{
+    text-decoration: none;
+    
+}

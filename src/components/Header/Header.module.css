@@ -1,0 +1,40 @@
+.header_div{
+    background-color: #13131376;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.logo{
+    display: inline-block;
+    
+}
+#navLink:first-child{
+margin-left: 7%;
+}
+.search{
+    display: inline-block;
+    margin-left: 19.5%;
+    width: 41%;
+    height: 35px;
+    background: rgba(217, 217, 217, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.31);
+    padding-left: 20px;
+    border-radius: 8px;
+    font-family: 'Comfortaa', cursive;
+    color: aliceblue;
+    margin-top: 10px;
+    font-size: 16px;
+}
+.user{
+    display: inline-block;
+    /* background-color: #ff0000; */
+    /* margin-left: ; */
+    /* margin: 0 10px; */
+    border-radius: 32px;
+    width: 64px;
+height: 64px;
+}
+.chapterLink{
+    margin-left: 20%;
+}
