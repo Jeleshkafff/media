@@ -1,0 +1,84 @@
+.User{
+    border-radius: 130px;
+    margin-left: 10%;
+}
+.name{
+    font-family: 'Comfortaa';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 71px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+}
+.ststys{
+    font-family: 'Comfortaa';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 27px;
+display: flex;
+align-items: center;
+
+color: #AAA7B5;
+
+}
+.info{
+    font-family: 'Comfortaa';
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 27px;
+display: flex;
+align-items: center;
+
+color: #AAA7B5;
+  
+}
+.createPost{
+    background: rgba(217, 217, 217, 0.1);
+border-radius: 6px;
+border: rgba(217, 217, 217, 0.1);
+font-family: 'Comfortaa';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+display: flex;
+align-items: center;
+text-align: center;
+width: 200px;
+color: #AAA7B5;
+text-align: center;
+height: 40px;
+padding-left: 20px;
+}
+.right{
+    width: 30%;
+    /* display: inline-block; */
+}
+.left{
+    right: 0px;
+    /* display: inline-block; */
+    
+}
+.ComponentsUser_div{
+    background: rgba(0, 0, 0, 0.29);
+    /* display: flex; */
+    /* display: inline; */
+    display: block;
+}
+.info{
+    padding-left: 30px;
+    width: 90px;
+    /* display: inline; */
+    text-align: center;
+}
+.infos{
+    display: flex;
+    /* display: inline; */
+
+}
