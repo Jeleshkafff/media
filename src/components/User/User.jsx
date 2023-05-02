@@ -4,6 +4,9 @@ import { BrowserRouter, NavLink } from "react-router-dom";
 import Header from '../Header';
 import Futer from '../Futer';
 import ComponentsUser from './ComponentsUser';
+import Posts from './Posts';
+// import Post from './Posts/Post';
+
 // import ContentOut from './ContentOut';
 
 export default function User() {
@@ -11,6 +14,8 @@ export default function User() {
       <div >
          <Header/>
          <ComponentsUser/>
+         <Posts/>
+         {/* <Post/> */}
          {/* <ContentOut/> */}
          <Futer/>
       </div>
