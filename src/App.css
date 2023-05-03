@@ -39,3 +39,6 @@
 body{
   background-color: #272727  ;
 }
+/* @media (body< 100vh){
+  position: fixed;
+} */

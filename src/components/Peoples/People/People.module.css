@@ -1,0 +1,48 @@
+.avatar {
+  width: 100px;
+  height: 100px;
+
+  background: #54a2a6;
+  border-radius: 50px;
+  display: inline-block;
+}
+.name {
+  font-family: "Comfortaa";
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 39px;
+  /* display: flex; */
+  align-items: center;
+
+  color: #ffffff;
+}
+.statys {
+  margin-top: 10px;
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  width:100%;
+  color: rgba(255, 255, 255, 0.45);
+}
+.rig {
+  display: inline-block;
+  margin-left: 2%;
+  width: 70%;
+}
+.rr {
+  display: flex;
+
+  color: rgba(255, 255, 255, 0.45);
+}
+.r {
+  margin-left: 50px;
+  float: right;
+}
+.People_div {
+  margin-left: auto;
+  margin-right: auto;
+  /* display: block; */
+  width: 45%;
+}
