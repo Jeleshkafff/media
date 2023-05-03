@@ -5,7 +5,7 @@ import { Router, Routes,Route } from 'react-router-dom';
 import Header from '../../Header';
 export default function LogIn() {
     return (
-        <div>
+        <div className={styles}>
             
         {/* <BrowserRouter>
     <Routes>
@@ -43,6 +43,7 @@ export default function LogIn() {
         <h2>Войти с помощью QR-кота</h2>
         </div>
       </div>  
+      <div className={styles.test}></div>
   </div>
     )
   }

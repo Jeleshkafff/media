@@ -1,0 +1,8 @@
+.test {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.login {
+  flex: 1 1 auto;
+}

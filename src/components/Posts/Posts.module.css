@@ -1,0 +1,10 @@
+.posts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2em;
+    margin-left: 15%;
+}
+
+/* .post:nth-child(2) {
+    background-color: aqua !important;
+} */

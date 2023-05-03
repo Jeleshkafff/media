@@ -1,21 +1,19 @@
 import React from "react";
-// import styles from "./FilmPage.module.css"
+import styles from "./Main.module.css";
 import { BrowserRouter, NavLink } from "react-router-dom";
-import Header from "../Header";
 import Futer from "../Futer";
-import ComponentsUser from "./ComponentsUser";
-// import Posts from './Posts';
-// import <Posts></Posts>
 import Posts from "../Posts";
-// import Post from './Posts/Post';
+
+import Header from "../Header";
 
 // import ContentOut from './ContentOut';
 
-export default function User() {
+export default function Main() {
   return (
     <div>
       <Header />
-      <ComponentsUser />
+      <h1 className={styles.news}>Новости</h1>
+      {/* <ComponentsUser /> */}
       <Posts />
       {/* <Post/> */}
       {/* <ContentOut/> */}
