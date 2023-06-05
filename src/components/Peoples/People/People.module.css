@@ -13,7 +13,7 @@
   line-height: 39px;
   /* display: flex; */
   align-items: center;
-
+  text-align: center;
   color: #ffffff;
 }
 .statys {
@@ -25,11 +25,13 @@
   line-height: 22px;
   width:100%;
   color: rgba(255, 255, 255, 0.45);
+  margin-left: 50px;
+  text-align: center;
 }
 .rig {
   display: inline-block;
   margin-left: 2%;
-  width: 70%;
+  width: 80%;
 }
 .rr {
   display: flex;
@@ -39,6 +41,7 @@
 .r {
   margin-left: 50px;
   float: right;
+  margin-right: 0;
 }
 .People_div {
   margin-left: auto;

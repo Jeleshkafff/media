@@ -1,0 +1,138 @@
+.User {
+  border-radius: 130px;
+  margin-left: 32%;
+  margin-top: 5%;
+}
+.name {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 71px;
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 1%;
+  padding-top: 4%;
+
+  color: #ffffff;
+}
+.ststys {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  width: 40%;
+  color: #aaa7b5;
+}
+.info {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+
+  color: #aaa7b5;
+}
+.sub {
+  background: rgba(217, 217, 217, 0.1);
+  border-radius: 6px;
+  border: rgba(217, 217, 217, 0.1);
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 200px;
+  color: #aaa7b5;
+  text-align: center;
+  height: 40px;
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+.buttons{
+  margin-top: -60px;
+  margin-left: 80px;
+}
+.message{
+  background: rgba(217, 217, 217, 0.1);
+  border-radius: 6px;
+  border: rgba(217, 217, 217, 0.1);
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 200px;
+  color: #aaa7b5;
+  text-align: center;
+  height: 40px;
+  padding-left: 20px;
+}
+.imgmess{
+  margin-right: 10px;
+}
+.right {
+  width: 30%;
+  /* display: inline-block; */
+  /* display:block; */
+  float: left;
+}
+.left {
+  right: 0px;
+  /* display: inline-block; */
+  /* display:block; */
+  /* display: inline-block; */
+  float: right;
+  margin-left: 0%;
+}
+.leftq {
+  margin-left: 40%;
+}
+.ComponentsUser_div {
+  background: rgba(0, 0, 0, 0.29);
+  /* display: flex; */
+  /* display: inline; */
+  /* display: block; */
+  /* display:block; */
+  margin-top: 0;
+}
+.info {
+  padding-left: 30px !important;
+  width: 90px;
+  /* display: inline; */
+  text-align: center;
+  text-decoration: none;
+}
+
+.info:first-child {
+  padding-left: 0;
+  /* width: 90px; */
+  /* display: inline; */
+  /* text-align: center; */
+}
+.infos {
+  display: flex;
+  /* display: inline; */
+  margin-top: 2%;
+  padding-bottom: 3%;
+}
+.createPost {
+  margin-left: 2%;
+  margin-top: 2%;
+}
+
+.chapterLink {
+  text-decoration: none;
+}

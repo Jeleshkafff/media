@@ -8,6 +8,8 @@ export default function Peoples() {
   return (
     <div>
       <People />
+      <People />
+      <People />
     </div>
   );
 }

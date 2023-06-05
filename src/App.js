@@ -9,6 +9,9 @@ import LogOut from "./components/LogOut/LogOut";
 import User from "./components/User/User";
 import Main from "./components/Main";
 import Subscribers from "./components/Subscribers";
+import Subscriptions from "./components/Subscriptions";
+// import Uusr
+import Uuser from "./components/UUser";
 // subscribers;
 function App() {
   return (
@@ -19,7 +22,10 @@ function App() {
           <Route path="/Reg" element={<LogOut />} />
           <Route path="/User" element={<User />} />
           <Route path="/Main" element={<Main />} />
-          <Route path="/subscribers" element={<Subscribers />} />
+          <Route path="/subscribers" element={<Subscriptions />} />
+          <Route path="/subscriptions" element={<Subscribers />} />
+          <Route path="/jeleshkafff" element={<Uuser />} />
+
         </Routes>
       </BrowserRouter>
       {/* <LogIn/> */}

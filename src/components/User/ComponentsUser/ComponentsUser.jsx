@@ -30,6 +30,7 @@ export default function ComponentsUser() {
             <p className={styles.info}>5 Подписки</p>
           </NavLink>
           <button className={styles.createPost}>+ создать пост</button>
+          <button className={styles.createPost}>Трахаться</button>
         </div>
       </div>
     </div>
