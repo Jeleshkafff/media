@@ -10,6 +10,7 @@ import User from "./components/User/User";
 import Main from "./components/Main";
 import Subscribers from "./components/Subscribers";
 import Subscriptions from "./components/Subscriptions";
+import Message from "./components/Message";
 // import Uusr
 import Uuser from "./components/UUser";
 // subscribers;
@@ -25,7 +26,7 @@ function App() {
           <Route path="/subscribers" element={<Subscriptions />} />
           <Route path="/subscriptions" element={<Subscribers />} />
           <Route path="/jeleshkafff" element={<Uuser />} />
-
+          <Route path="/message" element={<Message />} />
         </Routes>
       </BrowserRouter>
       {/* <LogIn/> */}

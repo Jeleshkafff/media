@@ -27,17 +27,30 @@ export default function ComponentsUUser() {
             id={styles.navLink}
             className={styles.chapterLink}
           >
-            <p className={styles.info}>5 Подписки  </p>
+            <p className={styles.info}>5 Подписки </p>
           </NavLink>
           <div className={styles.buttons}>
-            <button className={styles.sub}><img className={styles.imgmess} src="plus.svg" alt="meesage" />  Подписаться</button>
-           
-              <button className={styles.message}> <img className={styles.imgmess} src="mess.svg" alt="meesage" /> Cообщение</button>  
+            <button className={styles.sub}>
+              <img className={styles.imgmess} src="plus.svg" alt="meesage" />{" "}
+              Подписаться
+            </button>
+            <NavLink
+              to={"/message"}
+              id={styles.navLink}
+              className={styles.chapterLink}
+            >
+              <button className={styles.message}>
+              {" "}
+              <img
+                className={styles.imgmess}
+                src="mess.svg"
+                alt="meesage"
+              />{" "}
+              Cообщение
+            </button>{/* <p className={styles.info}>12,3 м Подписчики</p> */}
+            </NavLink>
             
-          
-          
           </div>
-
         </div>
       </div>
     </div>
