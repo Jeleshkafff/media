@@ -1,9 +1,32 @@
 .news {
   margin-left: 15%;
   margin-top: 50px;
-  font-family: 'Comfortaa';
-font-style: normal;
-font-weight: 400;
-font-size: 48px;
-line-height: 54px;
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 54px;
+}
+.peoples {
+  background-color: rgba(0, 0, 0, 0.231);
+  height: 87.9vh;
+  width: 35%;
+}
+/* Message{
+  overflow-y: hidden;
+} */
+.prokrutka {
+  word-break: break-all;
+  /* margin-top: ; */
+  padding-top: 10px;
+  height: 80vh; /* высота нашего блока */
+  margin-left: 10%;
+  width: 80%; /* ширина нашего блока */
+  /* background: #fff; цвет фона, белый */
+  /* border: 1px solid #c1c1c1; размер и цвет границы блока */
+  overflow-x: hidden; /* прокрутка по горизонтали */
+  overflow-y: scroll; /* прокрутка по вертикали */
+}
+.Name{
+  /* color: black; */
 }
