@@ -9,8 +9,10 @@
 }
 .peoples {
   background-color: rgba(0, 0, 0, 0.231);
-  height: 87.9vh;
+  height: 87.8vh;
   width: 35%;
+  margin-top: 0;
+  padding-top: 30px;
 }
 /* Message{
   overflow-y: hidden;
@@ -18,7 +20,7 @@
 .prokrutka {
   word-break: break-all;
   /* margin-top: ; */
-  padding-top: 10px;
+  /* padding-top: 10px; */
   height: 80vh; /* высота нашего блока */
   margin-left: 10%;
   width: 80%; /* ширина нашего блока */
@@ -29,4 +31,78 @@
 }
 .Name{
   /* color: black; */
+  margin-top: 10px;
+}
+.lastmess{
+  color: rgba(255, 255, 255, 0.459);
+    font-family: "Comfortaa";
+  font-style: normal;
+}
+ul{
+  text-decoration: none;
+}
+li{
+  padding-top: 40px;
+  padding-bottom: 40px;
+    list-style-type: none;
+}
+.li{
+    padding-top: 0;
+  padding-bottom: 0;
+    list-style-type: none;
+  }
+  .bb{
+    display: flex;
+
+  }
+.viol{
+  width: 75px;
+  height: 75px;
+  border-radius: 37.5px;
+  margin-left: 30px;
+}
+li{
+  display: flex;
+}
+.text{
+  margin-left: 30px;
+}
+.searchmess{
+  background-color:rgba(255, 255, 255, 0.062);
+  border-radius: 14px;
+  border: 2px solid rgba(255, 255, 255, 0.233);
+  height: 30px;
+  width: 70%;
+  /* text-align: center; */
+  display: block;
+    margin-left: auto;
+    margin-bottom: 30px;
+    /* margin-top: 30px; */
+    margin-right: auto ;
+    font-size: 16px;
+}
+.prokrutka::-webkit-scrollbar {
+  width: 7px;               /* ширина scrollbar */
+}
+.prokrutka::-webkit-scrollbar-track {
+  background: rgba(255, 166, 0, 0);        /* цвет дорожки */
+}
+.prokrutka::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.247);    /* цвет плашки */
+  
+  border-radius: 20px;       /* закругления плашки */
+  border: 3px solid rgba(0, 0, 0, 0);  /* padding вокруг плашки */
+}
+.palk{
+  border:1px solid rgba(201, 144, 255, 0.452);
+  text-align: center;
+  width: 90%;
+  border-radius: 5px;
+}
+.bb{
+  background-color: rgba(184, 147, 218, 0.123);
+  width: 90%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  /* height: 200px; */
 }

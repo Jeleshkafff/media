@@ -13,26 +13,99 @@ export default function Message() {
     <div className={styles.mesages}>
       <Header />
       {/* <h1 className={styles.news}>Новости</h1> */}
+      
       <div className={styles.peoples}>
+        <div>
+
+      <input className={styles.searchmess} type="text" placeholder="Поиск по сообщениям" />
+        </div>
         <div className={styles.prokrutka}>
           {/* {" "} */}
           <ul>
             <li>
-              {" "}
-              <img src="" alt="" /> <h2 className={styles.Name}>dss</h2>
+              <img className={styles.viol} src="viol.jpg" alt="" /> 
+              <div className={styles.text}>
+              <h2 className={styles.Name}>dss</h2>
+              <div className={styles.lastmess}>пока</div>  
+              </div>
             </li>
+            <div className={styles.palk}></div>
+            <li className={styles.li}>
+              <div className={styles.bb}>
+                <img className={styles.viol} src="viol.jpg" alt="" /> 
+              <div className={styles.text}>
+              <h2 className={styles.Name}>dss</h2>
+              <div className={styles.lastmess}>пока</div>  
+              </div>
+              </div>
+                                       
+            </li>
+            <div className={styles.palk}></div>
+                        <li>
+                                       <img className={styles.viol} src="viol.jpg" alt="" /> 
+              <div className={styles.text}>
+              <h2 className={styles.Name}>dss</h2>
+              <div className={styles.lastmess}>пока</div>  
+              </div>
+            </li>
+            <div className={styles.palk}></div>
             <li>
-              {" "}
-              <img src="" alt="" /> <h2 className={styles.Name}>dss</h2>
+                                                    <img className={styles.viol} src="viol.jpg" alt="" /> 
+              <div className={styles.text}>
+              <h2 className={styles.Name}>dss</h2>
+              <div className={styles.lastmess}>пока</div>  
+              </div>
             </li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <div className={styles.palk}></div>
+                        <li>
+                                                   <img className={styles.viol} src="viol.jpg" alt="" /> 
+              <div className={styles.text}>
+              <h2 className={styles.Name}>dss</h2>
+              <div className={styles.lastmess}>пока</div>  
+              </div>
+            </li>
+            <div className={styles.palk}></div>
+            <li>
+                                                    <img className={styles.viol} src="viol.jpg" alt="" /> 
+              <div className={styles.text}>
+              <h2 className={styles.Name}>dss</h2>
+              <div className={styles.lastmess}>пока</div>  
+              </div>
+            </li>
+            <div className={styles.palk}></div>
+                        <li>
+                                                     <img className={styles.viol} src="viol.jpg" alt="" /> 
+              <div className={styles.text}>
+              <h2 className={styles.Name}>dss</h2>
+              <div className={styles.lastmess}>пока</div>  
+              </div>
+            </li>
+            <div className={styles.palk}></div>
+            <li>
+                                                     <img className={styles.viol} src="viol.jpg" alt="" /> 
+              <div className={styles.text}>
+              <h2 className={styles.Name}>dss</h2>
+              <div className={styles.lastmess}>пока</div>  
+              </div>
+              
+            </li>
+            <div className={styles.palk}></div>
+                        <li>
+                                                     <img className={styles.viol} src="viol.jpg" alt="" /> 
+              <div className={styles.text}>
+              <h2 className={styles.Name}>dss</h2>
+              <div className={styles.lastmess}>пока</div>  
+              </div>
+              </li>
+              <div className={styles.palk}></div>
+            <li>
+                                                     <img className={styles.viol} src="viol.jpg" alt="" /> 
+              <div className={styles.text}>
+              <h2 className={styles.Name}>dss</h2>
+              <div className={styles.lastmess}>пока</div>  
+              </div>
+              </li>
+
           </ul>
         </div>
       </div>
